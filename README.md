@@ -1,2 +1,2 @@
 # thePortraitMaker
-This is website created using some Bootstrap documentation
+This is a website created using some Bootstrap documentation
