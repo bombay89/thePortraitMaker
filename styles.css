@@ -1,0 +1,242 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #BD4B4B;
+  margin: 0;
+  text-align: center;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 0 3%;
+}
+
+/* Headings */
+
+.heading {
+  font-family: 'Crete Round', serif;
+  color: #EEEEEE;
+  margin-top: 0;
+}
+
+.pre-heading {
+  font-family: 'Satisfy', cursive;
+  color: #EEEEEE;
+}
+
+.big-title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3rem;
+}
+
+.sub-heading {
+  color: #BD4B4B;
+  padding: 5%;
+}
+
+.pricing-heading {
+  text-align: left;
+  padding: 0 12px;
+}
+
+.reviews-heading {
+  padding: 3% 5% 0;
+  text-align: left;
+}
+
+.cta-heading {
+  margin: 2% 0;
+}
+
+/* Paragraphs */
+
+.pricing-para {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+  color: #BD4B4B;
+  text-align: left;
+  padding: 0 12px;
+}
+
+.copyright {
+  margin: 0;
+  padding: 10px;
+}
+
+/* Navigation section */
+
+.bg-b4 {
+  background-color: #000000;
+}
+
+/* Title section */
+
+#title {
+  background-image: url("images/title-bg-image1.png");
+  background-size: 90%;
+}
+
+.title-row {
+  margin-right: 0;
+}
+
+.title-img {
+  width: 70%;
+  border-style: groove;
+  border-width: 3px;
+}
+
+/* Gallery section */
+
+#gallery {
+  background-color: #BD4B4B;
+}
+
+#gallery-carousel {
+  padding: 6% 10%;
+}
+
+.gallery-images {
+  width: 50%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #EEEEEE;
+}
+
+/* Pricing section */
+
+#pricing {
+  background-color: #EFB7B7;;
+  padding: 7% 10%;
+}
+
+.pricing-row {
+  margin: 50px 0 0;
+}
+
+.pricing-column {
+  padding: 12px;
+}
+
+.pricing-head {
+  background-color: #BD4B4B;
+}
+
+.pricing-header {
+  color: #EEEEEE;
+}
+
+.price-tag {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+/* Review section */
+
+#reviews {
+  background-color: #fff;
+  padding: 7% 10%;
+}
+
+.reviews-row {
+  margin: 0;
+  padding: 2%;
+}
+
+.reviews-card {
+  border-style: none;
+  border: 0;
+  margin: 20px;
+}
+
+.card-img-top {
+  width: 20%;
+  border-radius: 100%;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.reviews-card-body {
+  padding-left: 26%;
+}
+
+.card-text {
+  font-size: 1.5rem;
+}
+
+/* CTA section */
+
+#cta {
+  background-color: #BD4B4B;
+  color: #EEEEEE;
+  padding: 3% 10%;
+}
+
+.order-button {
+  font-family: 'Satisfy', cursive;
+  font-size: 2rem;
+  margin: 2%;
+}
+
+/* Contact section */
+
+#contact {
+  background-color: #BD4B4B;
+  color: #EEEEEE;
+}
+
+.social-icon {
+  color: #EEEEEE;
+  text-decoration: none;
+  margin: 2%;
+}
+
+:hover.social-icon {
+  color: #EFB7B7;
+}
+
+#title .container-fluid {
+  padding: 10% 5%;
+}
+
+/* Order-form section */
+
+.order-form {
+  margin: 8px;
+  text-align: left;
+  width: 75%;
+}
+
+.submit-button {
+  background-color: #EEEEEE;
+  font-size: 1.5rem;
+  margin: 2%;
+}
+
+:hover.submit-button {
+  background-color: #BD4B4B;
+}
+
+@media (max-width: 992px) {
+  li {
+    text-align: left;
+  }
+
+  #title {
+    background-image: url("images/title-bg-image2.png");
+    background-size: 100%;
+    padding: 10% 2% 0;
+  }
+
+  .carousel-indicators {
+    margin-top: 16px;
+  }
+
+  #gallery-carousel {
+    padding: 7% 10%;
+  }
+}
